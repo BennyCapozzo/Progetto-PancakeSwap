@@ -4,10 +4,10 @@
     margin-bottom: 16px;
     /*background-color: aqua;*/
 }
-.minicard1 {
+.minicard {
     float:left;
     grid-column: 4 / 6;
-    margin: 20% 16px 0px 30%;
+    margin: 0px 16px 0px 0px;
     background-color: white;
     width: 230px;
     height: 222px;
@@ -16,7 +16,7 @@
     border-bottom-style: outset;
     border-bottom: 5px solid rgb(231 227 235);
 }
-.minicard1 h1 {
+.minicard h1 {
     margin: 80px 0px 0px 0px;
     position: relative;
     font-family: Kanit, sans-serif;
@@ -26,7 +26,7 @@
     height: 40px;
     /*background-color: blueviolet;*/
 }
-.minicard1 h2 {
+.minicard h2 {
     margin: 0px 0px 24px 0px;
     font-family: Kanit, sans-serif;
     font-size: 38px;
@@ -34,7 +34,7 @@
     color: rgb(119 74 212);
     /*background-color: brown;*/
 }
-.minicard1 h5 {
+.minicard h5 {
     margin:0px;
     font-family: Kanit, sans-serif;
     font-weight: 300;
@@ -49,88 +49,12 @@
     margin-bottom: 16px;
     /*background-color: aqua;*/
 }
-.minicard2 {
-    grid-column: 6 / 8;
-    float: left;
-    margin: 20% 16px 0px 0px;
-    background-color: white;
-    width: 230px;
-    height: 222px;
-    padding: 24px;
-    border-radius: 20px;
-    border-bottom-style: outset;
-    border-bottom: 5px solid rgb(231 227 235);
-}
-.minicard2 h1 {
-    margin: 80px 0px 0px 0px;
-    position: relative;
-    font-family: Kanit, sans-serif;
-    font-size: 38px;
-    font-weight: 600;
-    color: rgb(41 17 93);
-    height: 40px;
-    /*background-color: blueviolet;*/
-}
-.minicard2 h2 {
-    margin: 0px 0px 24px 0px;
-    font-family: Kanit, sans-serif;
-    font-size: 38px;
-    font-weight: 600;
-    color: rgb(119 74 212);
-    /*background-color: brown;*/
-}
-.minicard2 h5 {
-    margin:0px;
-    font-family: Kanit, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    height: 20px;
-    color: rgb(148 139 184);
-    /*background-color: cadetblue;*/
-}
 .img-schemes {
     float:right;
     padding: 1px 1px 3px;
     margin-bottom: 16px;
     /*background-color: aqua;*/
 }
-.minicard3 {
-    float: left;
-    grid-column: 8 / 10;
-    margin: 20% 16px 0px 0px;
-    float: left;
-    background-color: white;
-    width: 230px;
-    height: 222px;
-    padding: 24px;
-    border-radius: 20px;
-    border-bottom-style: outset;
-    border-bottom: 5px solid rgb(231 227 235);
-}
-.minicard3 h1 {
-    margin: 80px 0px 0px 0px;
-    position: relative;
-    font-family: Kanit, sans-serif;
-    font-size: 38px;
-    font-weight: 600;
-    color: rgb(41 17 93);
-    height: 40px;
-    /*background-color: blueviolet;*/
-}
-.minicard3 h2 {
-    margin: 0px 0px 24px 0px;
-    font-family: Kanit, sans-serif;
-    font-size: 38px;
-    font-weight: 600;
-    color: rgb(119 74 212);
-    /*background-color: brown;*/
-}
-.minicard3 h5 {
-    margin:0px;
-    font-family: Kanit, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    height: 20px;
-    color: rgb(148 139 184);
-    /*background-color: cadetblue;*/
+.minicard-group {
+    padding: 450px 27% 100px 27%;
 }
