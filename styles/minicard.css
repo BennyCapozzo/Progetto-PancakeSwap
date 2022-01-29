@@ -1,0 +1,21 @@
+.minicard-orange {
+    height: 369px;
+    width: 288px;
+    border-radius: 25px;
+    background-image: linear-gradient(#ffb338,#ffe76a);
+    border: solid 1px #ffb337;
+    border-bottom: solid 4px #ffb237;
+    transform: rotate(-1deg);
+    margin: 12px;
+}
+
+.minicard-indigo {
+    height: 369px;
+    width: 288px;
+    border-radius: 25px;
+    background-image: linear-gradient(#7645d9,#5222b2);
+    border: solid 1px #3c1786;
+    border-bottom: solid 4px #3c1786;
+    transform: rotate(1deg);
+    margin: 12px;
+}
