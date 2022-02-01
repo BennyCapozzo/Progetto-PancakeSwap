@@ -4,10 +4,13 @@
 @import "styles/navbar.css";
 @import "styles/colors.css";
 @import "styles/typography.css";
+@import "styles/containers.css";
+@import "styles/minicard.css";
 
 body{
     margin:0;
 }
+
 /* Parte 2 */
 .container-part2{
     text-align: center;
@@ -45,3 +48,92 @@ h2.color-2{
     color: #ED4B9E;
 }
 /* fine parte 2 */
+
+
+/* Sezione 5  */
+section h2 {
+    font-size: 40px;
+}
+
+.section-5 {
+    background: linear-gradient(rgb(111, 182, 241) 0%, rgb(234, 242, 246) 100%);
+    padding: 48px 0px;
+}
+
+.sec-5 h2 {
+    margin: 40px 0 24px;
+}
+
+.first-word {
+    color: #7645D9;
+}
+
+div[class *= "text-subtle"] {
+    color: rgb(122, 110, 170);;
+}
+
+.text-subtle-2 {
+    margin: 0 0 40px;;
+}
+
+/* Cards */
+.card-icon {
+    position: absolute;
+    right: 6%;
+    top: 6%;
+}
+
+.lottery-icon {
+    fill: #FFF;
+}
+
+.card-title {
+    margin: 8px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.card-text1 {
+    margin: 0 0 24px;
+    font-weight: 600;
+}
+
+.card-text2 {
+    margin: 0 0 40px;
+    font-weight: 400;
+}
+
+
+/* Sezione 6  */
+.sec6-text h2 {
+    margin-bottom: 24px;
+}
+
+.sec6-text .text-subtle {
+    margin-bottom: 24px;
+}
+
+.link-learn {
+    color: rgb(31, 199, 212);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.statistics-cell {
+    border-left: 1px solid rgb(215, 202, 236);
+    padding: 0 16px;
+}
+
+.cell-title {
+    color: rgb(122, 110, 170);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cell-value {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
