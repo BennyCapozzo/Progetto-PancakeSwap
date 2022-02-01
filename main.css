@@ -5,7 +5,8 @@
 @import "styles/colors.css";
 @import "styles/typography.css";
 @import "styles/minicard.css";
-
+@import "styles/image.css";
+@import "styles/footer.css";
 body{
     margin:0;
 }
