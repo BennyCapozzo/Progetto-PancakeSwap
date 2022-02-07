@@ -6,10 +6,6 @@
     color: white;
 }
 
-.color-text-indigo {
-    color: #9a6aff;
-}
-
 .color-text-purple {
     color: rgb(122, 110, 170);
 }
@@ -46,6 +42,6 @@
     text-decoration: underline;
 }
 
-.bgcolor-black {
+.footer-color {
     background-color: #27262c;
 }
