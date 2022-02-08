@@ -51,6 +51,82 @@ h2.color-2{
     color: #ED4B9E;
 }
 /* fine parte 2 */
+/*parte 3 */
+.container-part3{
+    padding-top: 200px;
+    text-align: left;
+    max-width:1000px;
+    margin:auto;
+    background-color: white;
+}
+.divisore{
+    display: flex;
+}
+.pictures{
+    max-width: 500px;
+    max-height: 428px;
+    box-sizing: border-box;
+}
+#img1{
+    z-index: 3;
+    position: absolute;
+}
+#img2{
+    z-index: 2;
+    position:relative;
+}
+#img3{
+    z-index:1;
+    position:relative;
+    bottom: 480px;
+    left:45px;
+    max-width: 450px;
+}
+.parte-sx h3{
+    font-size: 45px;
+}
+.ahref{
+    padding-left: 15px;
+    font-size: 16px;
+    color: #1FC7D4;
+    font-weight: 600;
+    text-decoration: none;
+}
+.ahref:hover{
+    text-decoration: underline;
+}
+/*  Parte 4  */
+.container-part4{
+    padding-top: 200px;
+    padding-bottom:200px;
+    text-align: left;
+    max-width:1000px;
+    margin:auto;
+}
+#grafico-torta{
+    z-index: 1;
+    position: absolute;
+    max-width: 550px;
+    left: 300px;
+}
+#grafico-lineare{
+    z-index: 2;
+    position: relative;
+    max-width: 550px;
+    right: 100px;
+
+}
+#cartella-coin{
+    z-index: 3;
+    max-width: 550px;
+    position: relative;
+    bottom: 570px;
+    right: 100px;
+
+}
+.parte-dx h3{
+    font-size: 45px;
+}
 
 
 /* Sezione 5  */
