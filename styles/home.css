@@ -61,7 +61,7 @@
     background-color: white;
 }
 .lunar-bunny {
-    float:right;
+    float:left;
     padding-top: 90px;
     position:relative;
     animation: imganim4 3s infinite linear both;
