@@ -1,0 +1,146 @@
+.navbar {
+    background-color: white;
+    height: 55px;
+}
+.sx {
+   position:absolute;
+   padding-left: 200px;
+}
+.dx {
+    float:right;
+    margin-right: 10px;
+}
+.dropbtn p{
+    color: rgb(122, 110, 170);
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+}
+.dropbtn p:hover {
+    background-color: rgb(239, 244, 245);
+    height: 35px;
+    width: 50px;
+    border-radius: 12px;
+    color: rgb(122, 110, 170);
+}
+.dropdown-content a {
+    color: rgb(122, 110, 170);
+}
+
+.logo1_bunnyH {
+    margin: 10px 5px;
+}
+.leaderboard {
+    border-top: 1px solid rgb(205, 208, 209);
+    border-bottom: 1px solid rgb(205, 208, 209);
+}
+.exit_img {
+    align-items: center;
+    float: right;
+}
+.impostazioni {
+    margin-right:8px;
+}
+.world {
+    margin-right: 8px;
+    padding: 0px 14px 0px 8px;
+}
+.logo1_blue{
+    margin-right: 8px;
+}
+.dx p {
+    color: rgb(122, 110, 170);
+}
+.change-num {
+    margin-right:12px;
+    padding-bottom: 3px;
+}
+.display_home_bg {
+    background-image: url(/home_img/sfondopancake2.png) ;
+    height: 100vh;
+    background-size: cover;
+    background-color: white;
+}
+.lunar-bunny {
+    float:left;
+    padding-top: 90px;
+    position:relative;
+    animation: imganim4 3s infinite linear both;
+
+}
+.home_hero{
+    display:flex;
+    justify-content: center;
+}
+.text-home {
+    width: 576px;
+    height: 281px;
+    float: left;
+    padding-top: 150px;
+}
+.text-home h1 {
+    margin-bottom: 24px;
+    font-size: 64px;
+    font-weight: 600;
+}
+.text-home h2 {
+    margin: 0px 0px 24px 0px;
+    font-size:  20px;
+}
+.home {
+    margin-right: 8px;
+}
+.star-l {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 440px 0px 0px 130px;
+    animation: imganim 1s infinite linear both;
+}
+.star-r {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 350px 0px 0px 880px;
+    animation: imganim2 2s infinite linear both;
+}
+.star-top-r{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 200px 0px 0px 830px;
+    animation: imganim3 3s infinite linear both;
+}
+@keyframes imganim {
+    0% {width: 30px; height: 30px; opacity: 1}
+    50% {width: 40px; height: 40px; opacity: 0}
+    100% {width: 30px; height: 30px; opacity:1}
+}
+@keyframes imganim2 {
+    0% {width: 40px; height: 40px; opacity: 1}
+    50% {width: 50px; height: 50px; opacity: 0}
+    100% {width: 40px; height: 40px; opacity: 1}
+}
+@keyframes imganim3 {
+    0% {width: 40px; height: 40px; opacity:1}
+    50% {width: 50px; height: 50px; opacity: 0}
+    100% {width: 40px; height: 40px; opacity:1}
+}
+@keyframes imganim4 {
+    0% {width: 576px; height: 576px;}
+    50% {width: 586px; height: 586px;}
+    100% {width: 576px; height: 576px;}
+}
+.prova .dropbtn{
+    padding:0px;
+    width: 30px;
+    height: 32px;
+}
+.prova a {
+    padding:0px;
+    width: 25px;
+    height:25px;
+}
+.prova2 a {
+    padding-right: 0px;
+}
+

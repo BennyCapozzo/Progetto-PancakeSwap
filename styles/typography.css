@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+:root {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+.font-title {
+    font-size: 1rem;
+}
+
+.font-display-1 {
+    font-size: 4rem;
+}
+
+.font-display-2 {
+    font-size: 2.50rem;
+}
+
+.font-display-3 {
+    font-size: 1.25rem;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+    .font-title {
+        display: none;
+    }
+
+    .font-display-1 {
+        font-size: 3rem;
+    }
+    
+    .font-display-2 {
+        font-size: 2rem;
+    }
+    
+}
