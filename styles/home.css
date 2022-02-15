@@ -156,7 +156,7 @@
 
 /*media 500*/
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .flex-container {
         display:flex;
         flex-direction: column;
@@ -204,9 +204,6 @@
     .world {
         margin-right: 8px;
         padding: 0px 14px 0px 8px;
-    }
-    .logo1_blue{
-        
     }
     .dx p {
         color: rgb(122, 110, 170);
@@ -311,7 +308,7 @@
 
 /*media 768*/
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .flex-container {
         display:flex;
         flex-direction: column;
