@@ -112,7 +112,7 @@
     padding: 16px;
     border: 1px solid rgb(231, 227, 235);
     border-radius: 72px;
-    margin: 0 auto;
+    width: 100%;
     max-width: 960px;
 }
 
@@ -121,6 +121,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.sec-5 h2 {
+    text-align: center;
 }
 
 .sec5-card-container {
@@ -134,6 +138,10 @@
     margin: 50px 20px;
 }
 
+.card-text-container .pre-title {
+    font-weight: 600;
+}
+
 @media screen and (min-width: 852px) {
     .sec5-card-container {
         flex-direction: row;
@@ -142,7 +150,6 @@
 
 /* Sezione 6  */
 .sec6-container {
-    margin: 0 auto;
     width: 100%;
     max-width: 968px;
 }
@@ -162,9 +169,10 @@
     justify-content: center;
 }
 
-.sec6-img {
-    height: 192px;
-    width: 192px;
+.sec6-images {
+    max-height: 192px;
+    max-width: 192px;
+    position: relative;
 }
 
 .statistics-container {
@@ -185,10 +193,12 @@
         align-items: center;
     }
 
-    .sec6-img {
+    .sec6-images {
         flex: 1 1 0%;
         height: 100%;
         width: 100%;
+        max-height: 410px;
+        max-width: 400px;
     }
 
     .statistics-container {
