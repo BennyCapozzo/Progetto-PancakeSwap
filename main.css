@@ -307,14 +307,14 @@ div[class *= "text-subtle"] {
 .footer {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 90%;
     
 }
 
 .cont1-foot {
     display: flex;
     justify-content: space-between;
-    width: 190vh;
+    width: 100%;
     margin-top: 40px;
     
 }
