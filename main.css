@@ -61,6 +61,7 @@ h2.color-2{
 }
 .divisore{
     display: flex;
+    margin:15px;
 }
 .pictures{
     max-width: 500px;
@@ -105,23 +106,24 @@ h2.color-2{
 }
 #grafico-torta{
     z-index: 1;
-    position: absolute;
+    position: relative;
     max-width: 550px;
-    left: 300px;
+    right: 100px;
 }
 #grafico-lineare{
     z-index: 2;
     position: relative;
     max-width: 550px;
     right: 100px;
+    bottom:600px;
 
 }
 #cartella-coin{
     z-index: 3;
     max-width: 550px;
     position: relative;
-    bottom: 570px;
     right: 100px;
+    bottom:1130px;
 
 }
 .parte-dx h3{
@@ -220,4 +222,62 @@ div[class *= "text-subtle"] {
 .cell-value {
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 768px){
+    /* Benny */
+    .minicard-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .divisore{
+        flex-direction: column;
+    }
+    .divisore .parte-sx{
+        order: 2;
+    }
+    .divisore .parte-dx{
+        max-width: 100%;
+    }
+    .pictures{
+        max-width: 100%;
+    }
+    #img1,#img2,#img3{
+        max-width: 200px;
+        position:absolute;
+        left: 65%;
+        bottom: 1px;
+    }
+    #img3{
+        bottom:0;;
+    }
+    .pictures{
+        max-height: 100px;
+    }
+    .divisore .parte-dx .pictures{
+        position: relative;
+    }
+    .divisore .parte-sx .pictures{
+        position:relative;
+    }
+    .divisore .parte-sx,.divisore .parte-dx{
+        margin-left: 15px;
+    }
+    #grafico-torta,#grafico-lineare,#cartella-coin{
+        max-width: 200px;
+        position: absolute;
+    }
+    #grafico-lineare{
+        bottom: 0;
+        top: 10px;     
+    }
+    #cartella-coin{
+        bottom: 0;
+        top:10px;
+    }
+    /* Fine Benny */
 }
