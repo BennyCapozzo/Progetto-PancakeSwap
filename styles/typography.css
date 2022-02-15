@@ -25,6 +25,11 @@
     font-weight: 600;
 }
 
+ul {
+    list-style-type: none;
+}
+
+
 @media screen and (max-width: 950px) {
     .font-title {
         display: none;

@@ -1,0 +1,52 @@
+.pancake-container-1 {
+    height: 256px;
+    width: 256px;
+}
+.pancake-1 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-2 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-3 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-container-2 {
+    height: 256px;
+    width: 256px;
+}
+.pancake-4 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-5 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-6 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.svg-format {
+    height: 24px;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.mini-svg {
+    margin: 10px;
+}
+
+.icon-svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}

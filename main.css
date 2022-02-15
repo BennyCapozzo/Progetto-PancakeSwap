@@ -138,7 +138,9 @@ section h2 {
 
 .section-5 {
     background: linear-gradient(rgb(111, 182, 241) 0%, rgb(234, 242, 246) 100%);
-    padding: 48px 0px;
+    padding: 48px 32px;
+    display: flex;
+    justify-content: center;
 }
 
 .sec-5 h2 {
@@ -185,10 +187,25 @@ div[class *= "text-subtle"] {
     font-weight: 400;
 }
 
+.card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-svg {
+    fill: #FFF;
+    padding: 0;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
 
 /* Sezione 6  */
 .section-6 {
-    padding: 48px 0px;
+    padding: 48px 32px;
+    display: flex;
+    justify-content: center;
 }
 
 .sec6-text h2 {
@@ -197,6 +214,38 @@ div[class *= "text-subtle"] {
 
 .sec6-text .text-subtle {
     margin-bottom: 24px;
+}
+
+.sec6-img {
+    max-width: 100%; 
+    max-height: 100%; 
+    position: relative;
+}
+
+#img-bottom-right {
+    bottom: 570px;
+}
+#img-top-left {
+    bottom: 190px;
+    right: 10px;
+}
+#img-top-right {
+    bottom: 390px;
+    right: 10px;
+}
+
+@media screen and (min-width: 860px) {
+#img-bottom-right {
+    bottom: 1160px;
+}
+#img-top-left {
+    bottom: 385px;
+    right: 10px;
+}
+#img-top-right {
+    bottom: 800px;
+    right: 10px;
+}
 }
 
 .link-learn {
@@ -281,3 +330,130 @@ div[class *= "text-subtle"] {
     }
     /* Fine Benny */
 }
+
+/* Inizio Daniele */
+/* Footer */
+.pre-footer-container {
+    display: flex;
+    background-color: #6231c3;
+    justify-content: space-around;
+    height: 428px;
+}
+
+.cont1-prefoot {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 80vh;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1200px;
+}
+
+.cont1-foot {
+    display: flex;
+    justify-content: space-between;
+    width: 190vh;
+    margin-top: 40px;
+    
+}
+
+.ul-footer {
+    padding: 0;
+}
+
+.li-footer {
+    margin: 10px;
+}
+
+.cont2-foot {
+    align-self: flex-start;
+    height: 55px;
+    width: 100%;
+    border-bottom: solid 1px gray;
+    margin-top: 10px;
+}
+
+.cont3-foot {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.foot-subcont1 {
+    display: flex;
+    align-items: center;
+}
+
+.foot-subcont2 {
+    display: flex;
+    align-items: center;
+    
+}
+/* fine footer  */
+/* Inizio footer image */
+.pancake-container-1 {
+    height: 256px;
+    width: 256px;
+}
+.pancake-1 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-2 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-3 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-container-2 {
+    height: 256px;
+    width: 256px;
+}
+.pancake-4 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-5 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.pancake-6 {
+    height: 256px;
+    width: 256px;
+    position: absolute;
+}
+.svg-format {
+    height: 24px;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.mini-svg {
+    margin: 10px;
+}
+
+.icon-svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+/* fine footer imager */
+/* fine Daniele */
