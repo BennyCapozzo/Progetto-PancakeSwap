@@ -22,11 +22,64 @@
 <body>
 
     <div type="grid" class="grid12-container">
-        <div class="grid12 parte1">The moon is made of pancakes</div>
+        <div class="grid12 parte1">
+            <!---COMPONENTE CARD per parte pagina exchange:
+            Da aggiungere link url ai bottoni alle altre pagine dove serve.
+            I bottoni bnb e cake portano a due nuove finistre dentro la home, aggiungere url.
+            Dentro l'input si può selezionare il valore o scrivere il numero.
+            Per posizionare dove si desidera la card guardare la classe nella sezione styles/card_exchange e vedere un po' i padding (in caso da togliere) e mettere la posizione che si preferisce.
+            Tutti gli stili di questa carta si trovano nella cartella styles/card_exchange.  -->
+            <div class="space-exc-card">
+                <div class="exc-card">
+                    <div class="exc-card-parte1">
+                        <button class="btn-exc">
+                        <img src="img_component_exchange/img_sbarra.png" class="immagine-sbarrata">
+                        </button>
+                         <h2>Swap</h2>
+                         <div class="img-right-exc">
+                            <button class="btn-exc"><img src="img_component_exchange/impostazioni.png" class="impostazioni-exc"></button>
+                            <button class="btn-exc"><img src="img_component_exchange/ricarica_scu.png" class="ricarica-scura"> </button>
+                            <button class="btn-exc"><img src="img_component_exchange/ricarica_op.png" class="ricarica-opaca"></button>
+                         </div>
+                        <h5>Trade tokens in an instant</h5>
+                    </div>
+                    <div class="exc-card-parte2">
+                        <div class="parte-bnb">
+                            <img class="logo-yellow" src="img_component_exchange/logo_yell.png">
+                            <h4>BNB</h4>
+                            <img src="img_component_exchange/freccia-scura.png">
+                        </div>
+                        <input type="number" value="0.0" class="take-amount">
+                        <div class="second-btn-exc">
+                            <button class="btn-exc-second"></button>
+                        </div>
+                        <div class="parte-cake">
+                            <img class="bunny-blue" src="img_component_exchange/bunny_blue.png">
+                            <h4>CAKE</h4>
+                            <img src="img_component_exchange/freccia-scura.png">
+                        </div>
+                        <input type="number" value="0.0" class="take-amount">
+                        <div class="parte-footer">
+                            <h6>Slippage Tolarance</h6>
+                            <h5>0.5%</h5>
+                        </div>
+                        <button type="btn" class="btn btn-sb exc-btn-blue">Connect Wallet</button>
+                    </div>
+                   
+                </div>
+            </div>
+            
+        </div>
         <div class="grid12 parte2">Used by millions.Trusted with billions.
             PancakeSwap has the most users of any decentralized platform, ever.
             And those users are now entrusting the platform with over $12 billion in funds.
             Will you join them?
+            <!--MINI CARDS per la parte 2 della pagina HOME di PCSWAP:
+            Per vedere gli stili andare su styles/minicards.
+            Le mini cards sono già posizionate per stare al centro della pagina, per qualsiasi modifica andare sempre su styles/minicards.
+            Font usato per le scritte: Kanit, sans-serif.
+            La distanza tra le mini cards è già impostata, se si vuole cambiarla vedere in styles/minicards/.minicard-group o .minicard
+            -->
             <div class="minicard-group">
                 <div type="minicards" class="minicard"> 
                     <img src="/reference-img/people.png" class="img-people">

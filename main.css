@@ -350,19 +350,20 @@ div[class *= "text-subtle"] {
 .footer-container {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .footer {
     display: flex;
     flex-direction: column;
+    width: 90%;
     
-    max-width: 1200px;
 }
 
 .cont1-foot {
     display: flex;
     justify-content: space-between;
-    width: 190vh;
+    width: 100%;
     margin-top: 40px;
     
 }
@@ -454,6 +455,13 @@ div[class *= "text-subtle"] {
 .icon-svg {
     height: 1.5rem;
     width: 1.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .pancake-1, .pancake-2, .pancake-3, .pancake-4, .pancake-5, .pancake-6, .pancake-container-1, .pancake-container-2 {
+        display: none;
+    }
+    
 }
 /* fine footer imager */
 /* fine Daniele */
