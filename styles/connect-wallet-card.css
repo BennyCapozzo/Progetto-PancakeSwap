@@ -1,0 +1,117 @@
+.cnct-wal-cont {
+ padding:20px;
+ width: 360px;
+ height: 470px;
+}
+.cnct-wal {
+    margin: 0px 16px 0px 10px;
+    background-color: white;
+    width: 340px;
+    height: 460px;
+    border-radius: 20px;
+    border-bottom-style: outset;
+
+}
+.cnct-parte1 {
+    display:flex;
+    width: 292px;
+    height: 48px;
+    padding: 12px 24px;
+    border-bottom: 1px solid rgb(205, 208, 209);
+    background: linear-gradient(to right, #e5fdff,#f3efff);
+    /*background: linear-gradient(to right,#e66465, #9198e5);*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items:center;
+    margin:0px;
+}
+.cnct-parte1 h2 {
+    color: rgb(40, 13, 95);
+    font-family: Kanit, sans-serif;
+    width: 244px;
+    height: 22px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.exit-cnctwal {
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border:none;
+}
+.exit-cnctwal img {
+    width: 22px;
+    height: 22px;
+}
+/*parte 2 */
+.cnct-parte2 {
+    width: 340px;
+    height: 202px;
+    /*background-color: aqua;*/
+    padding: 24px 0px 24px 0px;
+    border-bottom: 1px solid rgb(205, 208, 209);
+}
+.cnct-btn-img {
+    width: 170px;
+    height: 101px;
+    background-color: transparent;
+    border:none;
+}
+.cnct-parte2 a {
+    width: 170px;
+    height: 101px;
+}
+.cnct-btn-img img {
+    width: 40px;
+    height: 40px;
+    margin-bottom:8px;
+}
+.cnct-parte2 h5 {
+    color: rgb(40, 13, 95);
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Kanit, sans-serif;
+    margin:0px;
+}
+.fox {
+    float:left;
+}
+.cube {
+    float:right;
+}
+.circle {
+    float:left;
+}
+.points {
+    float:right;
+}
+.fox:hover , .cube:hover, .circle:hover, .points:hover {
+    opacity: 0.5;
+}
+/*parte 3*/
+
+.cnct-parte3 {
+    width: 340px;
+    height: 136px;
+    /*background-color: aqua;*/
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.cnct-parte3 h4 {
+    margin:0px;
+    padding:24px;
+    text-align: center;
+    color: rgb(122, 110, 170);
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-cnct-wal {
+    background-color: rgb(122, 110, 170);
+    width: 292px;
+    height: 48px;
+}
+.btn-cnctwall {
+  text-align: center;
+}
