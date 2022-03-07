@@ -296,6 +296,8 @@ div[class *= "text-subtle"] {
     }
     .pictures{
         max-width: 100%;
+        position: relative;
+        right: 50px;
     }
     #img1,#img2,#img3{
         max-width: 200px;
