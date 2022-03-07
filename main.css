@@ -475,6 +475,7 @@ div[class *= "text-subtle"] {
     
 }
 
+
 @media screen and (max-width: 850px) {
     .pancake-1, .pancake-2, .pancake-3, .pancake-4, .pancake-5, .pancake-6, .pancake-container-1, .pancake-container-2 {
         display: none;
