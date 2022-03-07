@@ -61,8 +61,8 @@
     background-color: white;
 }
 .lunar-bunny {
-    padding-top: 190px;
-    padding-right:50px;
+    /*padding-top: 190px;*/
+    /*padding-right:50px;*/
     animation: imganim4 3.5s infinite linear both;
 }
 .star-l {
@@ -229,7 +229,7 @@
         padding-right: 0px;
     }
     .display_home_bg {
-        background-image: url(/home_img/sfondopancake2.png) ;
+        background-image: url(/home_img/sfondopancake2.png);
         background-size: 500px;
         padding:0px;
         height: 500px;
