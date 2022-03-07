@@ -8,8 +8,9 @@
 @import "styles/minicard.css";
 @import "styles/home.css";
 @import "styles/card_exchange.css";
+@import "styles/connect-wallet-card.css";
+@import "styles/animation.css";
 @import "styles/graph_exchange.css";
-
 
 body{
     margin:0;

@@ -55,6 +55,458 @@
     padding-bottom: 3px;
 }
 .display_home_bg {
+    background-image: url(../home_img/sfondopancake2.png);
+    height: 100vh;
+    background-size: cover;
+    background-color: white;
+}
+.lunar-bunny {
+    /*padding-top: 190px;*/
+    /*padding-right:50px;*/
+    animation: imganim4 3.5s infinite linear both;
+}
+.star-l {
+    padding-top: 190px;
+}
+.star-r {
+    padding-top: 190px;
+}
+.star-top-r {
+    padding-top: 190px;
+}
+.lunar_bunnyPos {
+    position:absolute;
+}
+.home_hero{
+    display:flex;
+    justify-content: center;
+    padding-right: 350px;
+}
+.animation {
+    position: relative;
+}
+.star-l {
+    animation: imganim 2s infinite linear both;
+}
+.star-r {
+    animation: imganim2 5s infinite linear both;
+}
+.star-top-r {
+    animation: imganim3 2.5s infinite linear both;
+}
+.star-lPos {
+    position: absolute;
+}
+.star-rPos {
+    position:absolute;
+}
+.star-top-rPos {
+    position:absolute;
+}
+@keyframes imganim {
+    0% {width: 512px; height: 512px; opacity: 1}
+    50% {width: 507px; height: 507px; opacity: 0}
+    100% {width: 512px; height: 512px; opacity:1}
+}
+@keyframes imganim2 {
+    0% {width: 512px; height: 512px; opacity: 1}
+    50% {width: 507px; height: 507px; opacity: 0}
+    100% {width: 512px; height: 512px; opacity: 1}
+}
+@keyframes imganim3 {
+    0% {width: 512px; height: 512px; opacity:1}
+    50% {width: 507px; height: 507px; opacity: 0}
+    100% {width: 512px; height: 512px; opacity:1}
+}
+@keyframes imganim4 {
+    0% {width: 512px; height: 512px;}
+    50% {width: 507px; height: 507px;}
+    100% {width: 512px; height: 512px;}
+}
+.text-home {
+    width: 576px;
+    height: 281px;
+    padding-top:190px;
+}
+.text-home h1 {
+    margin-bottom: 24px;
+    font-size: 64px;
+    font-weight: 600;
+}
+.text-home h2 {
+    margin: 0px 0px 24px 0px;
+    font-size:  20px;
+}
+.home {
+    margin-right: 8px;
+}
+.prova .dropbtn{
+    padding:0px;
+    width: 30px;
+    height: 32px;
+}
+.prova a {
+    padding:0px;
+    width: 25px;
+    height:25px;
+}
+.prova2 a {
+    padding-right: 0px;
+}
+
+/*media 500*/
+
+@media (max-width: 768px) {
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .logo1_bunnyHs{
+        margin: 10px 0px;
+        width: 50px;
+        overflow:hidden;
+    }
+    .sx {
+       width:10px;
+       overflow:hidden;
+       padding:0px;
+       position:inherit;
+    }
+    .dropbtn p{
+        color: rgb(122, 110, 170);
+        transition-duration: 0.2s;
+        float:inline-start;
+    }
+    .dropbtn p:hover {
+        background-color: rgb(239, 244, 245);
+        border-radius: 12px;
+        color: rgb(122, 110, 170);
+    }
+    .dropdown-content a {
+        color: rgb(122, 110, 170);
+    }
+    
+    .leaderboard {
+        border-top: 1px solid rgb(205, 208, 209);
+        border-bottom: 1px solid rgb(205, 208, 209);
+    }
+    .exit_img {
+        align-items: center;
+        float: right;
+    }
+    .impostazioni {
+        margin-right:8px;
+    }
+    .world {
+        margin-right: 8px;
+        padding: 0px 14px 0px 8px;
+    }
+    .dx p {
+        color: rgb(122, 110, 170);
+    }
+    .change-num {
+        width:1px;
+        overflow:hidden;
+        padding:0px;
+        position:inherit;
+    }
+    .proval {
+        width:0.1px;
+        overflow:hidden;
+        padding:0px;
+        position:inherit;
+    }
+    .prova .dropbtn{
+        padding:0px;
+        width: 30px;
+        height: 32px;
+    }
+    .prova2 a {
+        padding-right: 0px;
+    }
+    .display_home_bg {
+        background-image: url(/home_img/sfondopancake2.png);
+        background-size: 500px;
+        padding:0px;
+        height: 500px;
+        background-size: cover;
+        background-color: white;
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .animation {
+        position:absolute;
+        top: -10px;
+        padding-top:50px;
+        right:230px;
+        
+    }
+    .lunar-bunny {
+        padding-top: 50px;
+        width: 192px;
+        height: 192px;
+        animation: imganim4 3.5s infinite linear both;
+    }
+    .star-l {
+        padding-top: 50px;
+        animation: imganim 2s infinite linear both;
+    }
+    .star-r {
+        padding-top: 50px;
+        animation: imganim2 5s infinite linear both;
+    }
+    .star-top-r {
+        padding-top: 50px;
+        animation: imganim3 2.5s infinite linear both;
+    }
+    @keyframes imganim {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim2 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim3 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim4 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+    .text-home {
+        width: 450px;
+        height: 106px;
+        padding-top: 30px;
+        padding-left: 20px;
+        text-align: center;
+        position:relative;
+    }
+    .text-home h1 {
+        margin-bottom: 24px;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    .text-home h2 {
+        margin: 0px 0px 24px 0px;
+        font-size:  20px;
+    }
+    .home {
+        margin-right: 8px;
+    } 
+}
+
+/*media 768*/
+
+@media (max-width: 1000px) {
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .dropbtn p{
+        color: rgb(122, 110, 170);
+        transition-duration: 0.2s;
+        float:inline-start;
+    }
+    .dropbtn p:hover {
+        background-color: rgb(239, 244, 245);
+        border-radius: 12px;
+        color: rgb(122, 110, 170);
+    }
+    .dropdown-content a {
+        color: rgb(122, 110, 170);
+    }
+    
+    .leaderboard {
+        border-top: 1px solid rgb(205, 208, 209);
+        border-bottom: 1px solid rgb(205, 208, 209);
+    }
+    .exit_img {
+        align-items: center;
+        float: right;
+    }
+    .impostazioni {
+        margin-right:8px;
+    }
+    .world {
+        margin-right: 8px;
+        padding: 0px 5px 0px 8px;
+    }
+    .logo1_blue{
+        width: 24px;
+    }
+    .dx p {
+        color: rgb(122, 110, 170);
+    }
+    .change-num {
+        margin-right:10px;
+        margin-left:10px;
+        padding-bottom: 3px;
+    }
+    .proval {
+        width:24px;
+        padding:0px;
+    }
+    .dropdown .dropbtn {
+        padding: 14px 8px 14px 8px;
+    }
+    .prova .dropbtn{
+        padding:0px;
+        width: 30px;
+        height: 32px;
+    }
+    .prova2 a {
+        padding-right: 0px;
+    }
+    .display_home_bg {
+        background-image: url(/home_img/sfondopancake2.png) ;
+        background-size: 500px;
+        padding:0px;
+        height: 500px;
+        background-size: cover;
+        background-color: white;
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .animation {
+        position:absolute;
+        top: -5px;
+        padding-top:50px;
+        right:230px;
+        
+    }
+    .lunar-bunny {
+        padding-top: 50px;
+        width: 192px;
+        height: 192px;
+        animation: imganim4 3.5s infinite linear both;
+    }
+    .star-l {
+        padding-top: 50px;
+        animation: imganim 2s infinite linear both;
+    }
+    .star-r {
+        padding-top: 50px;
+        animation: imganim2 5s infinite linear both;
+    }
+    .star-top-r {
+        padding-top: 50px;
+        animation: imganim3 2.5s infinite linear both;
+    }
+    @keyframes imganim {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim2 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim3 {
+        0% {width: 192px; height: 192px; opacity: 1}
+        50% {width: 182px; height: 182px; opacity: 0}
+        100% {width: 192px; height: 192px; opacity:1}
+    }
+    @keyframes imganim4 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+    .text-home {
+        width: 450px;
+        height: 106px;
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: center;
+        position:relative;
+    }
+    .text-home h1 {
+        margin-bottom: 24px;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    .text-home h2 {
+        margin: 0px 0px 24px 0px;
+        font-size:  20px;
+    }
+    .home {
+        margin-right: 8px;
+    } 
+  
+}
+.navbar {
+    background-color: white;
+    height: 55px;
+}
+.sx {
+   position:absolute;
+   padding-left: 200px;
+}
+.dx {
+    float:right;
+    margin-right: 10px;
+}
+.dropbtn p{
+    color: rgb(122, 110, 170);
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+}
+.dropbtn p:hover {
+    background-color: rgb(239, 244, 245);
+    height: 35px;
+    width: 50px;
+    border-radius: 12px;
+    color: rgb(122, 110, 170);
+}
+.dropdown-content a {
+    color: rgb(122, 110, 170);
+}
+
+.logo1_bunnyH {
+    margin: 10px 5px;
+}
+.leaderboard {
+    border-top: 1px solid rgb(205, 208, 209);
+    border-bottom: 1px solid rgb(205, 208, 209);
+}
+.exit_img {
+    align-items: center;
+    float: right;
+}
+.impostazioni {
+    margin-right:8px;
+}
+.world {
+    margin-right: 8px;
+    padding: 0px 14px 0px 8px;
+}
+.logo1_blue{
+    margin-right: 8px;
+}
+.dx p {
+    color: rgb(122, 110, 170);
+}
+.change-num {
+    margin-right:12px;
+    padding-bottom: 3px;
+}
+.display_home_bg {
     background-image: url(/home_img/sfondopancake2.png) ;
     height: 100vh;
     background-size: cover;
@@ -450,4 +902,3 @@
     } 
   
 }
-
