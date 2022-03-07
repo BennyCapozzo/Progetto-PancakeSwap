@@ -171,7 +171,8 @@
         overflow:hidden;
     }
     .sx {
-       width:10px;
+       /* width:10px; */
+       display: none;
        overflow:hidden;
        padding:0px;
        position:inherit;
@@ -623,7 +624,7 @@
         overflow:hidden;
     }
     .sx {
-       width:10px;
+       /* width:10px; */
        overflow:hidden;
        padding:0px;
        position:inherit;
