@@ -12,20 +12,22 @@
 @import "styles/animation.css";
 @import "styles/graph_exchange.css";
 
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
 /* Parte 2 */
-.part-2{
+.part-2 {
     background-image: url("home_img/sfondopt2nPR.png");
     background-size: cover;
 }
-.container-part2{
+
+.container-part2 {
     text-align: center;
-    max-width:1100px;
-    margin:auto;
+    max-width: 1100px;
+    margin: auto;
 }
+
 .minicard {
     text-align: left;
     float: left;
@@ -38,100 +40,119 @@ body{
     border-bottom-style: outset;
     border-bottom: 5px solid rgb(231 227 235);
 }
+
 .minicard-group {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
-svg{
-    padding-top:50px;
+
+svg {
+    padding-top: 50px;
 }
-.bold{
+
+.bold {
     font-weight: 600;
 }
-h2.color-1{
-    color:#1FC7D4;
+
+h2.color-1 {
+    color: #1FC7D4;
 }
-h2.color-2{
+
+h2.color-2 {
     color: #ED4B9E;
 }
+
 /* fine parte 2 */
 /*parte 3 */
-.container-part3{
+.container-part3 {
     padding-top: 200px;
     text-align: left;
-    max-width:1000px;
-    margin:auto;
+    max-width: 1000px;
+    margin: auto;
     background-color: white;
 }
-.divisore{
+
+.divisore {
     display: flex;
-    margin:15px;
+    margin: 15px;
 }
-.pictures{
+
+.pictures {
     max-width: 500px;
     max-height: 428px;
     box-sizing: border-box;
 }
-#img1{
+
+#img1 {
     z-index: 3;
     position: absolute;
 }
-#img2{
+
+#img2 {
     z-index: 2;
-    position:relative;
+    position: relative;
 }
-#img3{
-    z-index:1;
-    position:relative;
+
+#img3 {
+    z-index: 1;
+    position: relative;
     bottom: 480px;
-    left:45px;
+    left: 45px;
     max-width: 450px;
 }
-.parte-sx h3{
+
+.parte-sx h3 {
     font-size: 45px;
 }
-.ahref{
+
+.ahref {
     padding-left: 15px;
     font-size: 16px;
     color: #1FC7D4;
     font-weight: 600;
     text-decoration: none;
 }
-.ahref:hover{
+
+.ahref:hover {
     text-decoration: underline;
 }
+
 /*  Parte 4  */
-.container-part4{
+.container-part4 {
     padding-top: 200px;
-    padding-bottom:200px;
+    padding-bottom: 200px;
     text-align: left;
-    max-width:1000px;
-    margin:auto;
+    max-width: 1000px;
+    margin: auto;
 }
-#grafico-torta{
+
+#grafico-torta {
     z-index: 1;
     position: relative;
     max-width: 550px;
     right: 100px;
 }
-#grafico-lineare{
+
+#grafico-lineare {
     z-index: 2;
     position: relative;
     max-width: 550px;
     right: 100px;
-    bottom:600px;
+    bottom: 600px;
 
 }
-#cartella-coin{
+
+#cartella-coin {
     z-index: 3;
     max-width: 550px;
     position: relative;
     right: 100px;
-    bottom:1130px;
+    bottom: 1130px;
 
 }
-.parte-dx h3{
+
+.parte-dx h3 {
     font-size: 45px;
 }
 
@@ -156,12 +177,14 @@ section h2 {
     color: #7645D9;
 }
 
-div[class *= "text-subtle"] {
-    color: rgb(122, 110, 170);;
+div[class *="text-subtle"] {
+    color: rgb(122, 110, 170);
+    ;
 }
 
 .text-subtle-2 {
-    margin: 0 0 40px;;
+    margin: 0 0 40px;
+    ;
 }
 
 /* Cards */
@@ -222,36 +245,69 @@ div[class *= "text-subtle"] {
 }
 
 .sec6-img {
-    max-width: 100%; 
-    max-height: 100%; 
+    max-width: 192px;
+    max-height: 192px;
     position: relative;
 }
 
 #img-bottom-right {
-    bottom: 570px;
+    bottom: 580px;
 }
+
 #img-top-left {
     bottom: 190px;
     right: 10px;
 }
+
 #img-top-right {
     bottom: 390px;
     right: 10px;
 }
 
-@media screen and (min-width: 860px) {
-#img-bottom-right {
-    bottom: 1160px;
+@media screen and (min-width: 850px) {
+    .sec6-img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    #img-bottom-right {
+        bottom: 1180px;
+    }
+
+    #img-top-left {
+        bottom: 385px;
+        right: 10px;
+    }
+
+    #img-top-right {
+        bottom: 800px;
+        right: 10px;
+    }
 }
-#img-top-left {
-    bottom: 385px;
-    right: 10px;
+
+@media screen and (max-width: 850px){
+    @keyframes img400-1 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+    @keyframes img400-2 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+    @keyframes img400-3 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+    @keyframes img400-4 {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
 }
-#img-top-right {
-    bottom: 800px;
-    right: 10px;
-}
-}
+
 
 .link-learn {
     color: rgb(31, 199, 212);
@@ -279,7 +335,8 @@ div[class *= "text-subtle"] {
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+
     /* Benny */
     .minicard-group {
         display: flex;
@@ -288,80 +345,156 @@ div[class *= "text-subtle"] {
         align-items: center;
         padding: 20px;
     }
-    .divisore{
+
+    .divisore {
         flex-direction: column;
     }
-    .divisore .parte-sx{
+
+    .divisore .parte-sx {
         order: 2;
     }
-    .divisore .parte-dx{
+
+    .divisore .parte-dx {
         max-width: 100%;
     }
-    .pictures{
+
+    .pictures {
         max-width: 100%;
         position: relative;
         right: 50px;
     }
-    #img1,#img2,#img3{
-        max-width: 200px;   /* 200 */
+
+    #img1, #img2, #img3 {
+        max-width: 200px;
+        /* 200 */
         max-height: 200px;
-        position:absolute;
+        position: absolute;
         left: 65%;
         bottom: 1px;
     }
-    #img3{
-        bottom:0;;
+
+    #img3 {
+        bottom: 0;
+        ;
     }
-    .pictures{
+
+    .pictures {
         max-height: 100px;
     }
-    .divisore .parte-dx .pictures{
+
+    .divisore .parte-dx .pictures {
         position: relative;
     }
-    .divisore .parte-sx .pictures{
-        position:relative;
+
+    .divisore .parte-sx .pictures {
+        position: relative;
     }
-    .divisore .parte-sx,.divisore .parte-dx{
+
+    .divisore .parte-sx, .divisore .parte-dx {
         margin-left: 15px;
     }
-    #grafico-torta,#grafico-lineare,#cartella-coin{
+
+    #grafico-torta, #grafico-lineare, #cartella-coin {
         max-width: 200px;
         max-height: 200px;
         position: absolute;
     }
-    #grafico-lineare{
+
+    #grafico-lineare {
         bottom: 0;
-        top: 10px;     
+        top: 10px;
     }
-    #cartella-coin{
+
+    #cartella-coin {
         bottom: 0;
-        top:10px;
+        top: 10px;
     }
+
     @keyframes img512 {
-        0% {width: 200px; height: 200px;}
-        50% {width: 190px; height: 190px;}
-        100% {width: 200px; height: 200px;}
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
     }
+
     @keyframes img450 {
-        0% {width: 200px; height: 200px;}
-        50% {width: 190px; height: 190px;}
-        100% {width: 200px; height: 200px;}
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
     }
-    @keyframes img550-1{
-        0% {width: 200px; height: 200px;}
-        50% {width: 190px; height: 190px;}
-        100% {width: 200px; height: 200px;}
+
+    @keyframes img550-1 {
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
     }
+
     @keyframes img550-2 {
-        0% {width: 200px; height: 200px;}
-        50% {width: 190px; height: 190px;}
-        100% {width: 200px; height: 200px;}
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
     }
+
     @keyframes img550-3 {
-        0% {width: 200px; height: 200px;}
-        50% {width: 190px; height: 190px;}
-        100% {width: 200px; height: 200px;}
+        0% {
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+            width: 190px;
+            height: 190px;
+        }
+
+        100% {
+            width: 200px;
+            height: 200px;
+        }
     }
+
     /* Fine Benny */
 }
 
@@ -381,6 +514,7 @@ div[class *= "text-subtle"] {
     align-items: center;
     width: 80vh;
 }
+
 .footer-container {
     display: flex;
     justify-content: center;
@@ -393,7 +527,7 @@ div[class *= "text-subtle"] {
     flex-direction: column;
     width: 90%;
     height: 100%;
-    
+
 }
 
 .cont1-foot {
@@ -401,7 +535,7 @@ div[class *= "text-subtle"] {
     justify-content: space-between;
     width: 100%;
     margin-top: 40px;
-    
+
 }
 
 .ul-footer {
@@ -436,43 +570,51 @@ div[class *= "text-subtle"] {
 .foot-subcont2 {
     display: flex;
     align-items: center;
-    
+
 }
+
 /* fine footer  */
 /* Inizio footer image */
 .pancake-container-1 {
     height: 256px;
     width: 256px;
 }
+
 .pancake-1 {
     height: 256px;
     width: 256px;
     position: absolute;
 }
+
 .pancake-2 {
     height: 256px;
     width: 256px;
     position: absolute;
 }
+
 .pancake-3 {
     height: 256px;
     width: 256px;
     position: absolute;
 }
+
 .pancake-container-2 {
     height: 256px;
     width: 256px;
 }
+
 .pancake-4 {
     height: 256px;
     width: 256px;
     position: absolute;
 }
+
 .pancake-5 {
     height: 256px;
     width: 256px;
     position: absolute;
 }
+
 .pancake-6 {
     height: 256px;
     width: 256px;
@@ -504,7 +646,7 @@ div[class *= "text-subtle"] {
 
 #svg-value {
     margin-right: 10px;
-    
+
 }
 
 
@@ -512,7 +654,7 @@ div[class *= "text-subtle"] {
     .pancake-1, .pancake-2, .pancake-3, .pancake-4, .pancake-5, .pancake-6, .pancake-container-1, .pancake-container-2 {
         display: none;
     }
-    
+
 }
 
 @media screen and (max-width: 575px) {
@@ -533,7 +675,7 @@ div[class *= "text-subtle"] {
     .svg-format {
         display: none;
     }
-    
+
     .svg-format2 {
         display: block;
     }
@@ -554,5 +696,6 @@ div[class *= "text-subtle"] {
     }
 
 }
+
 /* fine footer imager */
 /* fine Daniele */
