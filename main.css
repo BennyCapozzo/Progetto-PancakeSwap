@@ -18,8 +18,8 @@ body{
 
 /* Parte 2 */
 .part-2{
-    background-image: url("home_img/sfondopt2n.png");
-    background-size: cover
+    background-image: url("home_img/sfondopt2nPR.png");
+    background-size: cover;
 }
 .container-part2{
     text-align: center;
