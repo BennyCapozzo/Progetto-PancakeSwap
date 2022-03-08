@@ -56,7 +56,15 @@ o un div con il nome corrispondente , es: img512,img450 ect
 si possono anche copia-incollare le classi da lì.
 -NEI MEDIA: modificare width e height, le immagini sono praticamente quasi tutte sui 192px x 192px(tranne parte 2 e 3 che sono sui 200px x 200px),
  e farle diventare nei 50% 182px x 182px,
-come nell'esempio precedente. 
+quindi per esempio nei vostri media per esempio dovrete mettere:
+@media (max-width: 768px) {
+    @keyframes NOMEANIMAZIONE {
+        0% {width: 192px; height: 192px; }
+        50% {width: 182px; height: 182px; }
+        100% {width: 192px; height: 192px;}
+    }
+}
+NB.QUESTO PER TUTTE LE VOSTRE ANIMAZIONI.
 */
 
 /* per parte 2 e img con misure 512x512(cake & btc) --> img512, bnb(450x450) --> img450 */
