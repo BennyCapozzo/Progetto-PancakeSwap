@@ -54,7 +54,8 @@ o un div con il nome corrispondente , es: img512,img450 ect
 -per aggiungere le animazioni, inserire il nome delle classi (di sotto sono spiegati a quali immagini si riferiscono)
 -VEDERE exampleAnimation.html per capire le classi di riferimento, lì sono già state inserite,
 si possono anche copia-incollare le classi da lì.
--NEI MEDIA: modificare width e height, le immagini sono praticamente tutte sui 192px x 192px, e farle diventare nei 50% 182px x 182px,
+-NEI MEDIA: modificare width e height, le immagini sono praticamente quasi tutte sui 192px x 192px(tranne parte 2 e 3 che sono sui 200px x 200px),
+ e farle diventare nei 50% 182px x 182px,
 come nell'esempio precedente. 
 */
 
