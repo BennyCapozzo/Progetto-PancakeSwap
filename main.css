@@ -337,6 +337,31 @@ div[class *= "text-subtle"] {
         bottom: 0;
         top:10px;
     }
+    @keyframes img512 {
+        0% {width: 200px; height: 200px;}
+        50% {width: 190px; height: 190px;}
+        100% {width: 200px; height: 200px;}
+    }
+    @keyframes img450 {
+        0% {width: 200px; height: 200px;}
+        50% {width: 190px; height: 190px;}
+        100% {width: 200px; height: 200px;}
+    }
+    @keyframes img550-1{
+        0% {width: 200px; height: 200px;}
+        50% {width: 190px; height: 190px;}
+        100% {width: 200px; height: 200px;}
+    }
+    @keyframes img550-2 {
+        0% {width: 200px; height: 200px;}
+        50% {width: 190px; height: 190px;}
+        100% {width: 200px; height: 200px;}
+    }
+    @keyframes img550-3 {
+        0% {width: 200px; height: 200px;}
+        50% {width: 190px; height: 190px;}
+        100% {width: 200px; height: 200px;}
+    }
     /* Fine Benny */
 }
 
