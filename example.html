@@ -22,7 +22,7 @@
 </head>
 
 <body>
-     <!--GRID-->
+
     <div type="grid" class="grid12-container">
         <div class="grid12 parte1">
             <!---COMPONENTE CARD per parte pagina exchange:
@@ -35,14 +35,17 @@
                 <div class="exc-card">
                     <div class="exc-card-parte1">
                         <button class="btn-exc">
-                        <img src="img_component_exchange/img_sbarra.png" class="immagine-sbarrata">
+                            <img src="img_component_exchange/img_sbarra.png" class="immagine-sbarrata">
                         </button>
-                         <h2>Swap</h2>
-                         <div class="img-right-exc">
-                            <button class="btn-exc"><img src="img_component_exchange/impostazioni.png" class="impostazioni-exc"></button>
-                            <button class="btn-exc"><img src="img_component_exchange/ricarica_scu.png" class="ricarica-scura"> </button>
-                            <button class="btn-exc"><img src="img_component_exchange/ricarica_op.png" class="ricarica-opaca"></button>
-                         </div>
+                        <h2>Swap</h2>
+                        <div class="img-right-exc">
+                            <button class="btn-exc"><img src="img_component_exchange/impostazioni.png"
+                                    class="impostazioni-exc"></button>
+                            <button class="btn-exc"><img src="img_component_exchange/ricarica_scu.png"
+                                    class="ricarica-scura"> </button>
+                            <button class="btn-exc"><img src="img_component_exchange/ricarica_op.png"
+                                    class="ricarica-opaca"></button>
+                        </div>
                         <h5>Trade tokens in an instant</h5>
                     </div>
                     <div class="exc-card-parte2">
@@ -67,10 +70,9 @@
                         </div>
                         <button type="btn" class="btn btn-sb exc-btn-blue">Connect Wallet</button>
                     </div>
-                   
+
                 </div>
             </div>
-            
         </div>
         <div class="grid12 parte2">Used by millions.Trusted with billions.
             PancakeSwap has the most users of any decentralized platform, ever.
@@ -103,7 +105,106 @@
                 </div>
             </div>
         </div>
-        <div class="grid12 parte3">Trade anything. No registration, no hassle.</div>
+        <div class="grid12 parte3">Trade anything. No registration, no hassle. </div>
+        <div class="grid12 parte4">Earn passive income with crypto.
+            <!--Componente CONNECT WALLET
+            Per vedere gli stili andare su styles/conncet-waller-card.
+            Per posizionare la card gicare sui margin.
+            Le immagini usate si possono trovare nella cartella img_component_connect-wallet.
+            Ogni bottone-immagine ha un url, posizionare dentro il tag a apposito.
+            Font usato per le scritte: Kanit, sans-serif.-->
+            <div class="cnct-wal-cont">
+                <div class="cnct-wal">
+                    <div class="cnct-parte1">
+                        <h2>Connect Wallet</h2>
+                        <a href="#"><button class="exit-cnctwal"><img src="img_component_connect-wallet/exit.png"/></button></a>
+                    </div>
+                    <div class="cnct-parte2">
+                        <div class="fox"><a href="#"><button class="cnct-btn-img"><img src="img_component_connect-wallet/foxicon.png"/><h5>Metamask</h5></button></a></div>
+                        <div class="cube"><a href="#"><button class="cnct-btn-img"><img src="img_component_connect-wallet/cubeicon.png"/><h5>Binance Wallet</h5></button></a></div>
+                        <div class="circle"><a href="#"><button class="cnct-btn-img"><img src="img_component_connect-wallet/circleicon.png"/><h5>Coinbase Wallet</h5></button></a></div>
+                        <div class="points"><a href="#"><button class="cnct-btn-img"><img src="img_component_connect-wallet/ect.png"/><h5>More</h5></button></a></div>
+                    </div>
+                    <div class="cnct-parte3">
+                        <h4>Haven't got a crypto wallet yet?</h4>
+                        <div class="btn-cnctwall"><button type="btn" class="btn btn-sb btn-cnct-wal">Learn How to Connect</button></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid12 parte3">
+            <!-- Componente Matteo:
+    Componente CARD con grafico per la pagina Trade/Exchange
+    Bottoni non cliccabili e grafico statico.     
+    Stili per il componente reperibili nella cartella styles/graph_exchange -->
+
+            <!-- Container della card  -->
+            <div class="card-graph-container">
+                <!-- CARD  -->
+                <div class="card-graph">
+                    <!-- Sezione di header  -->
+                    <div class="header-container">
+                        <div class="header">
+                            <div class="icons-left">
+                                <img src="img_component_exchange/bunny_blue.png" alt="icona con logo Pancake" />
+                                <img src="img_component_exchange/logo_yell.png" alt="icona con logo coin" />
+                            </div>
+                            <div class="text">BNB/CAKE</div>
+                            <button class="btn-graph btn-arrows">
+                                <img src="img_component_exchange/swap-arrows.svg"
+                                    alt="icona con doppie frecce orizzontali" />
+                            </button>
+                            <button class="btn-graph text-btn text1">Basic</button>
+                            <button class="btn-graph text-btn text2">TradingView</button>
+                        </div>
+                        <button class="btn-graph btn-arrows">
+                            <img src="img_component_exchange/expand-arrow.svg"
+                                alt="icona con doppie frecce diagonali" />
+                        </button>
+                    </div>
+                    <!-- Sezione con intestazione e switch data -->
+                    <div class="title-date-container">
+                        <div class="title-container">
+                            <div class="title">
+                                <div class="title-left">59.13</div>
+                                <div class="title-center">BNB/CAKE</div>
+                                <div class="title-right">+1.589 (2.76%)</div>
+                            </div>
+                            <div class="date">Mar 01, 2022, 12:54 PM</div>
+                        </div>
+                        <div class="date-switch-container">
+                            <div class="buttons-container">
+                                <button class="date-buttons hours">24H</button>
+                            </div>
+                            <div class="buttons-container">
+                                <button class="date-buttons weeks">1W</button>
+                            </div>
+                            <div class="buttons-container">
+                                <button class="date-buttons months">1M</button>
+                            </div>
+                            <div class="buttons-container">
+                                <button class="date-buttons years">1Y</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sezione con grafico -->
+                    <div class="img-container">
+                        <img src="/img_component_exchange/graph.png" alt="" id="graph">
+                        <div class="hours-container">
+                            <span class="img-hours">08:00 PM</span>
+                            <span class="img-hours">12:00 AM</span>
+                            <span class="img-hours">04:00 AM</span>
+                            <span class="img-hours">08:00 AM</span>
+                            <span class="img-hours">12:00 PM</span>
+                            <span class="img-hours">05:30 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="grid12 parte4">Earn passive income with crypto.</div>
         <div class="grid12 parte5">Win millions in prizes</div>
         <div class="grid12 parte6">CAKE makes our world go round.</div>
@@ -111,8 +212,6 @@
         <div class="grid12 parte8">about/help/developers</div>
     </div>
 
-
-    <!--NAVBAR BASE-->
     <div class="navbar">
         <div class="sx">
             <a href="#home">Home</a>
@@ -132,22 +231,14 @@
         </div>
     </div>
 
-
-
-    <!--BOTTONI!-->
     <button type="btn" class="btn btn-nor">Connect Wallet</button>
     <button type="btn" class="btn btn-alt">Trade Now</button>
     <button type="btn" class="btn btn-sb">Connect Wallet</button>
 
-
-
-
-
     <div class="font-title black-title">Pancakeswap</div>
     <div class="color-text-purple">Trade</div>
     <div class="font-display-1 color-display-1">The moon is made of pancakes</div>
-    <div class="font-display-3 color-display-2">Trade, earn, and win crypto on the most popular decentralized
-        platform
+    <div class="font-display-3 color-display-2">Trade, earn, and win crypto on the most popular decentralized platform
         in the galaxy.</div>
     <div class="font-display-2 color-display-2">Used by millions<br>Trusted with billions</div>
     <div class="color-text-purple">PancakeSwap has the most users of any decentralized platform, ever.<br>
@@ -158,5 +249,4 @@
 
 
 </body>
-
 </html>
