@@ -127,6 +127,11 @@ h2.color-2 {
     margin: auto;
 }
 
+.part-4 {
+    background-image: url("home_img/bgpt3.jpg");
+    background-size: cover;
+}
+
 #grafico-torta {
     z-index: 1;
     position: relative;
